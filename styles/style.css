@@ -1,0 +1,39 @@
+body{
+    font-size:10pt;
+}
+
+.bigboi{
+    border:solid black 5px;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+label{
+    border:solid lightgrey 1px;
+    border-radius:25px;
+    margin:30px;
+    width:400px;
+    display:flex;
+    flex-direction:row;
+    justify-content:start;
+    align-items:center;
+}
+
+#google-search-icon{
+    transform:scale(50%,50%);
+    opacity:50%;
+}
+
+#search-bar{
+    background:transparent;
+    border:none;
+    width:auto;
+    font-size:14pt;
+}
+
+#search-bar:focus{
+    outline:none;
+}
