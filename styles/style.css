@@ -1,23 +1,45 @@
 body{
     font-size:10pt;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .top-nav{
-    border:solid black 5px;
+    padding:5px;
     display:flex;
     flex-direction:row;
     justify-content:space-between;
     align-items:center;
 }
 
-.top-right-nav{
+.top-left-nav{
+    width:100%;
     display:flex;
+    justify-content:space-between;
     align-items:center;
+    margin-left:18px;
 }
 
-.top-left-nav{
+.top-right-nav{
+    width:230px;
     display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
     align-items:center;
+    margin-right:18px;
+
+}
+
+#nav-apps{
+    transform:scale(50%);
+    opacity:65%;
+}
+
+#signin-nav{
+    padding:7px 13px 7px 13px;
+    background-color:#4285f4;
+    color:white;
+    font-weight:bold;
+    border-radius:3%;
 }
 
 .bigboi{
@@ -32,6 +54,7 @@ label{
     border:solid lightgrey 1px;
     border-radius:25px;
     margin:30px;
+    padding:0 5px 0 5px;
     width:400px;
     display:flex;
     flex-direction:row;
@@ -41,7 +64,7 @@ label{
 
 #google-search-icon{
     transform:scale(50%,50%);
-    opacity:50%;
+    opacity:40%;
 }
 
 #search-bar{
